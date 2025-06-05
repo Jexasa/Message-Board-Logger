@@ -25,7 +25,7 @@ A Python web application that allows users to leave messages for an admin throug
 3. Obtain an ngrok API key from the ngrok dashboard.
 4. Run the script:
   ```bash
-  python3 keylogger.py
+  python3 main.py
 ```
 
 Enter your ngrok API key when prompted (saved to config.json).
@@ -34,10 +34,10 @@ Type messages in the textarea, logs are saved to keylog.txt.
 Visit <public_url>/view-logs to view logged keystrokes and more details.
 
 
-Educational Use: Designed for learning about web apps, logging, and risks cybersecurity.
+Educational Use: Designed for learning about web apps, logging, and risks regarding cybersecurity.
 
 File Structure
-keylogger.py: Main script with Flask app, ngrok, and QR code generation.
+main.py: Main script with Flask app, ngrok, and QR code generation.
 config.json: Stores ngrok API key (created on first run).
 keylog.txt: Logs keystrokes and visit details.
 qrcode.png: Generated QR code for the public URL.
